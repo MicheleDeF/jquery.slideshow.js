@@ -1,0 +1,33 @@
+div#box_slide{
+position: relative;
+width: 700px;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+border: 10px solid #fff;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+        
+div#box_slide img{display: none;position: absolute;top: 0;left: 0;} 
+        
+.attuale{}
+      
+.sfondo{background-color: #fff;}
+          
+ol.indicators{position: absolute;list-style: none;}
+          
+ol.indicators li{
+float: left;
+border: 1px  solid #fff;
+width: 8px;
+height: 8px;
+margin-right: 5px;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+}
