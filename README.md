@@ -26,7 +26,7 @@
        
        
 
-> Le immagini sono contenute in un div#box_slide e alla prima immagine viene applicata la classe ".attuale", l'elenco ol contiene gli indicatori del numero dell'immagine visualizzata, aggiungere alla pagina html la versione recente di jquery e il plug-in jquery.slideshow.js
+> Le immagini sono contenute in un div#box_slide e alla prima immagine viene applicata la classe ".attuale" ed hanno una dimensione di 700x400px, l'elenco ol contiene gli indicatori del numero dell'immagine visualizzata, aggiungere alla pagina html la versione recente di jquery e il plug-in jquery.slideshow.js
 
     <script src="jquery-1.10.2.js"></script>
     <script src="jquery.slideshow.js"></script>
