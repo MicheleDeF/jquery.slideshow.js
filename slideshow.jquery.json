@@ -1,0 +1,36 @@
+{
+    "name": "slideshow",
+    "title": "jQuery Slide Show",
+    "description": "jQuery plugin per fotogallery animata",
+    "keywords": [
+        "sendform",
+        "web form html5",
+        
+    ],
+    "version": "0.1",
+    "author": {
+        "name": "michele de falco",
+        "url": "https://github.com/MicheleDeF"
+    },
+    "maintainers": [
+        {
+            "name": "Michele De Falco",
+            "email": "defalco_michele@libero.it",
+            "url": "https://github.com/MicheleDeF"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.githubusercontent.com/MicheleDeF/slideshow/master/LICENSE"
+            
+        }
+    ],
+    
+    "homepage": "https://github.com/MicheleDeF/slideshow",
+    "docs": "https://github.com/MicheleDeF/slideshow",
+    "download": "https://github.com/MicheleDeF/slideshow/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
