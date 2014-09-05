@@ -93,4 +93,4 @@
      
 Demo
 
-[fotogallery.html](http://micheledefalco.altervista.org/slideshow/fotogallery.html)
+[fotogallery.html](http://micheledefalco.altervista.org/github/slideshow/fotogallery.html)
