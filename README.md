@@ -1,10 +1,10 @@
 #jquery.slideshow.js
 
->SlideShow è un plug-in jquery per fotogallery animata.
+>SlideShow is a plug-in for jQuery animated photo gallery.
 
-###Come iniziare
+###How to get started
 
-> Codice HTML
+>HTML Code
 
         <div id="box_slide">   
             
@@ -26,14 +26,14 @@
        
        
 
-> Le immagini sono contenute in un div#box_slide e alla prima immagine viene applicata la classe ".attuale" ed hanno una dimensione di 700x400px, l'elenco ol contiene gli indicatori del numero dell'immagine visualizzata, aggiungere alla pagina html la versione recente di jquery e il plug-in jquery.slideshow.js
+>The images are contained in a div#box_slide and the first image is applied to the class ".attuale" and have a size of 700x400px, the list ol contains indicators of the number of the displayed image, add to the html version of the recent jquery and plug-in jquery.slideshow.js
 
     <script src="jquery-1.10.2.js"></script>
     <script src="jquery.slideshow.js"></script>
 
-> e il foglio di stile _**style.css**_
+>and the style sheet _**style.css**_
 
-> Codice css
+>CSS Code
 
         div#box_slide{
         position: relative;
@@ -76,13 +76,13 @@
          border-radius: 20px;
          }
 
-> Codice JS          
+>JS Code         
 
     $(document).ready(function(){
     $('#box_slide').slideshow();
     });
 
-> di default la velocità dell'intervallo di tempo di apparizione di un'immagine ed un'altra è 4000 millisecondi, si può scegliere un intervallo di tempo diverso tramite il valore "in_speed" della variabile di "default" di "jquery.slideshow.js":
+>default speed of the time of appearance of an image and another is 4000 milliseconds, you can choose a different time interval using the value "in_speed" of the variable "default" of "jquery.slideshow.js ":
 
      $(document).ready(function(){
      $('#box_slide').slideshow({in_speed:2000});
