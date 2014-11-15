@@ -1,6 +1,6 @@
 #jquery.slideshow.js
 
->SlideShow is a plug-in jQuery for  animated photo gallery.
+>SlideShow is a jQuery plug-in for  animated photo gallery.
 
 ###How to get started
 
