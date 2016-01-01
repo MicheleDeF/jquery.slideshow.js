@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Jquery.slideshow.js by MicheleDeF</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/MicheleDeF/jquery.slideshow.js">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Jquery.slideshow.js</h1>
+            <h2>jQuery Plug-in for slide images</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/MicheleDeF/jquery.slideshow.js/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/MicheleDeF/jquery.slideshow.js/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="jqueryslideshowjs" class="anchor" href="#jqueryslideshowjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>jquery.slideshow.js</h1>
+
+<blockquote>
+<p>SlideShow is a jQuery plug-in for  animated photo gallery.</p>
+</blockquote>
+
+<h3>
+<a id="how-to-get-started" class="anchor" href="#how-to-get-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to get started</h3>
+
+<blockquote>
+<p>HTML Code</p>
+</blockquote>
+
+<pre><code>    &lt;div id="box_slide"&gt;   
+
+    &lt;img src="image1.jpg" class="attuale"&gt;
+    &lt;img src="image2.jpg"&gt;
+    &lt;img src="image3.jpg"&gt;
+    &lt;img src="image4.jpg"&gt;
+    &lt;img src="image5.jpg"&gt;
+
+    &lt;ol class="indicators"&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+   &lt;/ol&gt;    
+
+   &lt;/div&gt;
+</code></pre>
+
+<blockquote>
+<p>The images are contained in a div#box_slide and the first image is applied to the class ".attuale" and have a size of 700x400px, the list ol contains indicators of the number of the displayed image, add to the html version of the recent jquery and plug-in jquery.slideshow.js</p>
+</blockquote>
+
+<pre><code>&lt;script src="jquery-1.10.2.js"&gt;&lt;/script&gt;
+&lt;script src="jquery.slideshow.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<blockquote>
+<p>and the style sheet <em><strong>style.css</strong></em></p>
+
+<p>CSS Code</p>
+</blockquote>
+
+<pre><code>    div#box_slide{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #fff;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+    border-radius: 3px;
+   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+                 }
+
+    div#box_slide img{
+    display: none;
+    position: absolute;
+    top: 0;left: 0;
+    } 
+
+   .attuale{}
+
+   .sfondo{background-color: #fff;}
+
+    ol.indicators{
+    position: absolute;
+    list-style: none;
+    }
+
+     ol.indicators li{
+     float: left;
+     border: 1px  solid #fff;
+     width: 8px;
+     height: 8px;
+     margin-right: 5px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+     border-radius: 20px;
+     }
+</code></pre>
+
+<blockquote>
+<p>JS Code         </p>
+</blockquote>
+
+<pre><code>$(document).ready(function(){
+$('#box_slide').slideshow();
+});
+</code></pre>
+
+<blockquote>
+<p>default speed of the time of appearance of an image and another is 4000 milliseconds, you can choose a different time interval using the value "in_speed" of the variable "default" of "jquery.slideshow.js ":</p>
+</blockquote>
+
+<pre><code> $(document).ready(function(){
+ $('#box_slide').slideshow({in_speed:2000});
+ });
+</code></pre>
+
+<p>See the Pen <a href="http://codepen.io/MicheleDeF/pen/JoOZaJ/">JoOZaJ</a> by michele de falco (<a href="http://codepen.io/MicheleDeF">@MicheleDeF</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/MicheleDeF">MicheleDeF</a> can be found on <a href="https://github.com/MicheleDeF/jquery.slideshow.js">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
