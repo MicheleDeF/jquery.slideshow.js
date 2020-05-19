@@ -90,7 +90,6 @@
      
  
 <p data-height="268" data-theme-id="0" data-slug-hash="JoOZaJ" data-default-tab="html" data-user="MicheleDeF" class='codepen'>See the Pen <a href='http://codepen.io/MicheleDeF/pen/JoOZaJ/'>JoOZaJ</a> by michele de falco (<a href='http://codepen.io/MicheleDeF'>@MicheleDeF</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 http://micheledef.github.io/jquery.slideshow.js/
      
